@@ -1,0 +1,101 @@
+Transaction_ID,Date,Store_Location,Category,Units_Sold,Unit_Price,Total_Sale_Amount,Payment_Method,Customer_Age_Group,Discount_Applied
+TXN1000,2024-01-01,Downtown,Furniture,4,312.47,1241.78,Mobile Payment,36-50,8.1
+TXN1001,2024-01-02,Downtown,Toys,14,283.68,3965.95,Cash,36-50,5.57
+TXN1002,2024-01-03,Mall,Furniture,12,54.49,653.88,Mobile Payment,18-25,0.0
+TXN1003,2024-01-04,Suburbs,Toys,14,271.13,3771.31,Credit Card,26-35,24.51
+TXN1004,2024-01-05,Suburbs,Groceries,14,255.41,3542.14,Credit Card,26-35,33.6
+TXN1005,2024-01-06,Suburbs,Toys,15,70.57,1021.72,Online Payment,26-35,36.83
+TXN1006,2024-01-07,Downtown,Electronics,2,177.76,342.59,Mobile Payment,50+,12.93
+TXN1007,2024-01-08,Downtown,Electronics,4,39.05,123.48,Mobile Payment,26-35,32.72
+TXN1008,2024-01-09,Online,Toys,2,125.92,225.92,Online Payment,26-35,25.92
+TXN1009,2024-01-10,Downtown,Groceries,13,146.07,1898.91,Credit Card,18-25,0.0
+TXN1010,2024-01-11,Downtown,Groceries,11,221.9,2440.9,Online Payment,50+,0.0
+TXN1011,2024-01-12,Downtown,Electronics,4,273.89,1078.01,Cash,50+,17.55
+TXN1012,2024-01-13,Suburbs,Groceries,8,154.75,1222.03,Mobile Payment,36-50,15.97
+TXN1013,2024-01-14,Suburbs,Furniture,7,492.01,3413.43,Credit Card,50+,30.64
+TXN1014,2024-01-15,Downtown,Clothing,7,404.51,2811.43,Online Payment,50+,20.14
+TXN1015,2024-01-16,Suburbs,Furniture,18,266.83,4802.94,Credit Card,18-25,0.0
+TXN1016,2024-01-17,Online,Electronics,15,335.59,5006.91,Cash,26-35,26.94
+TXN1017,2024-01-18,Suburbs,Groceries,5,279.53,1356.75,Mobile Payment,50+,40.9
+TXN1018,2024-01-19,Online,Toys,14,466.22,6509.5,Online Payment,50+,17.58
+TXN1019,2024-01-20,Mall,Clothing,6,56.28,337.68,Credit Card,18-25,0.0
+TXN1020,2024-01-21,Downtown,Toys,9,439.67,3948.18,Mobile Payment,50+,8.85
+TXN1021,2024-01-22,Suburbs,Electronics,15,135.91,2038.65,Mobile Payment,50+,0.0
+TXN1022,2024-01-23,Online,Groceries,8,445.41,3527.2,Credit Card,18-25,36.08
+TXN1023,2024-01-24,Mall,Toys,3,372.5,1117.5,Mobile Payment,36-50,0.0
+TXN1024,2024-01-25,Mall,Toys,15,81.95,1229.25,Mobile Payment,36-50,0.0
+TXN1025,2024-01-26,Suburbs,Clothing,18,144.47,2600.46,Online Payment,50+,0.0
+TXN1026,2024-01-27,Suburbs,Clothing,4,109.26,418.26,Mobile Payment,50+,18.78
+TXN1027,2024-01-28,Mall,Groceries,2,174.73,323.16,Online Payment,26-35,26.3
+TXN1028,2024-01-29,Downtown,Clothing,18,345.31,6191.43,Mobile Payment,50+,24.15
+TXN1029,2024-01-30,Downtown,Toys,1,427.19,406.36,Cash,26-35,20.83
+TXN1030,2024-01-31,Online,Toys,3,255.18,748.35,Cash,36-50,17.19
+TXN1031,2024-02-01,Downtown,Electronics,8,129.31,1034.48,Online Payment,50+,0.0
+TXN1032,2024-02-02,Mall,Toys,6,454.54,2727.24,Online Payment,50+,0.0
+TXN1033,2024-02-03,Mall,Groceries,14,30.15,408.48,Cash,18-25,13.62
+TXN1034,2024-02-04,Mall,Furniture,16,318.97,5086.08,Mobile Payment,50+,17.44
+TXN1035,2024-02-05,Downtown,Electronics,16,415.53,6648.48,Online Payment,36-50,0.0
+TXN1036,2024-02-06,Online,Electronics,7,26.82,169.41,Credit Card,50+,18.33
+TXN1037,2024-02-07,Downtown,Groceries,13,170.11,2211.43,Mobile Payment,26-35,0.0
+TXN1038,2024-02-08,Online,Groceries,2,69.76,139.52,Mobile Payment,50+,0.0
+TXN1039,2024-02-09,Downtown,Clothing,6,490.0,2940.0,Cash,26-35,0.0
+TXN1040,2024-02-10,Mall,Electronics,13,84.98,1104.74,Online Payment,18-25,0.0
+TXN1041,2024-02-11,Mall,Clothing,1,223.71,190.01,Mobile Payment,50+,33.7
+TXN1042,2024-02-12,Suburbs,Toys,13,354.31,4606.03,Online Payment,18-25,0.0
+TXN1043,2024-02-13,Downtown,Electronics,9,282.65,2513.02,Online Payment,18-25,30.83
+TXN1044,2024-02-14,Downtown,Electronics,15,60.38,879.16,Online Payment,50+,26.54
+TXN1045,2024-02-15,Suburbs,Furniture,10,472.8,4728.0,Cash,26-35,0.0
+TXN1046,2024-02-16,Mall,Electronics,14,347.05,4842.34,Online Payment,50+,16.36
+TXN1047,2024-02-17,Downtown,Toys,18,78.78,1418.04,Cash,26-35,0.0
+TXN1048,2024-02-18,Suburbs,Clothing,16,22.83,365.28,Credit Card,18-25,0.0
+TXN1049,2024-02-19,Downtown,Clothing,5,187.76,938.8,Mobile Payment,36-50,0.0
+TXN1050,2024-02-20,Online,Furniture,7,278.5,1937.67,Mobile Payment,50+,11.83
+TXN1051,2024-02-21,Mall,Toys,10,217.74,2177.4,Credit Card,36-50,0.0
+TXN1052,2024-02-22,Online,Clothing,7,25.71,169.64,Cash,26-35,10.33
+TXN1053,2024-02-23,Mall,Groceries,2,185.5,371.0,Mobile Payment,50+,0.0
+TXN1054,2024-02-24,Suburbs,Toys,19,466.88,8830.81,Cash,36-50,39.91
+TXN1055,2024-02-25,Mall,Toys,18,486.24,8727.05,Cash,36-50,25.27
+TXN1056,2024-02-26,Mall,Furniture,2,24.75,31.12,Cash,50+,18.38
+TXN1057,2024-02-27,Suburbs,Clothing,11,182.12,2003.32,Credit Card,36-50,0.0
+TXN1058,2024-02-28,Mall,Toys,2,342.62,685.24,Credit Card,50+,0.0
+TXN1059,2024-02-29,Downtown,Clothing,2,335.13,670.26,Cash,36-50,0.0
+TXN1060,2024-03-01,Suburbs,Groceries,19,180.07,3388.18,Online Payment,18-25,33.15
+TXN1061,2024-03-02,Suburbs,Furniture,16,282.14,4514.24,Credit Card,50+,0.0
+TXN1062,2024-03-03,Suburbs,Groceries,17,437.98,7445.66,Online Payment,18-25,0.0
+TXN1063,2024-03-04,Online,Furniture,17,487.05,8267.81,Online Payment,18-25,12.04
+TXN1064,2024-03-05,Online,Toys,6,375.99,2230.67,Cash,36-50,25.27
+TXN1065,2024-03-06,Mall,Furniture,2,463.25,926.5,Online Payment,26-35,0.0
+TXN1066,2024-03-07,Suburbs,Electronics,17,122.18,2059.1,Online Payment,18-25,17.96
+TXN1067,2024-03-08,Mall,Clothing,3,85.44,219.69,Online Payment,18-25,36.63
+TXN1068,2024-03-09,Downtown,Clothing,6,400.94,2405.64,Cash,18-25,0.0
+TXN1069,2024-03-10,Suburbs,Electronics,3,92.64,277.92,Cash,26-35,0.0
+TXN1070,2024-03-11,Downtown,Groceries,20,209.09,4181.8,Credit Card,26-35,0.0
+TXN1071,2024-03-12,Mall,Electronics,3,93.78,247.2,Credit Card,18-25,34.14
+TXN1072,2024-03-13,Online,Toys,8,462.62,3700.96,Online Payment,26-35,0.0
+TXN1073,2024-03-14,Mall,Toys,13,392.28,5091.96,Cash,26-35,7.68
+TXN1074,2024-03-15,Downtown,Clothing,4,208.8,803.42,Cash,26-35,31.78
+TXN1075,2024-03-16,Suburbs,Toys,19,336.6,6370.64,Online Payment,50+,24.76
+TXN1076,2024-03-17,Mall,Clothing,8,368.85,2914.81,Credit Card,18-25,35.99
+TXN1077,2024-03-18,Suburbs,Electronics,19,127.84,2381.54,Cash,26-35,47.42
+TXN1078,2024-03-19,Online,Electronics,20,83.8,1676.0,Credit Card,50+,0.0
+TXN1079,2024-03-20,Online,Electronics,2,352.13,659.24,Online Payment,36-50,45.02
+TXN1080,2024-03-21,Online,Clothing,20,194.36,3887.2,Cash,36-50,0.0
+TXN1081,2024-03-22,Suburbs,Electronics,3,24.17,72.51,Online Payment,26-35,0.0
+TXN1082,2024-03-23,Mall,Electronics,14,237.99,3281.88,Mobile Payment,18-25,49.98
+TXN1083,2024-03-24,Suburbs,Groceries,19,103.79,1972.01,Online Payment,26-35,0.0
+TXN1084,2024-03-25,Suburbs,Electronics,19,459.63,8706.8,Online Payment,36-50,26.17
+TXN1085,2024-03-26,Mall,Toys,17,178.08,3027.36,Online Payment,18-25,0.0
+TXN1086,2024-03-27,Online,Clothing,11,411.17,4473.01,Cash,18-25,49.86
+TXN1087,2024-03-28,Online,Groceries,9,436.3,3893.13,Online Payment,36-50,33.57
+TXN1088,2024-03-29,Mall,Furniture,7,115.35,758.84,Online Payment,50+,48.61
+TXN1089,2024-03-30,Suburbs,Clothing,11,331.72,3628.26,Mobile Payment,50+,20.66
+TXN1090,2024-03-31,Suburbs,Toys,8,202.24,1617.92,Cash,26-35,0.0
+TXN1091,2024-04-01,Online,Clothing,9,142.91,1242.59,Mobile Payment,18-25,43.6
+TXN1092,2024-04-02,Downtown,Toys,13,39.36,488.16,Online Payment,26-35,23.52
+TXN1093,2024-04-03,Downtown,Toys,5,387.8,1921.03,Cash,18-25,17.97
+TXN1094,2024-04-04,Downtown,Furniture,10,178.82,1788.2,Mobile Payment,36-50,0.0
+TXN1095,2024-04-05,Suburbs,Clothing,15,257.16,3831.93,Online Payment,18-25,25.47
+TXN1096,2024-04-06,Suburbs,Furniture,11,341.36,3754.96,Credit Card,18-25,0.0
+TXN1097,2024-04-07,Online,Furniture,3,422.61,1219.17,Mobile Payment,36-50,48.66
+TXN1098,2024-04-08,Downtown,Clothing,1,168.92,168.92,Cash,50+,0.0
+TXN1099,2024-04-09,Online,Electronics,15,18.66,245.31,Mobile Payment,36-50,34.59
