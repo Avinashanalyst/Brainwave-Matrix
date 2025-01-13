@@ -1,0 +1,191 @@
+# 1. Required Library Imports
+import pandas as pd
+import numpy as np
+from nltk.sentiment import SentimentIntensityAnalyzer
+from textblob import TextBlob
+import plotly.express as px
+import plotly.graph_objects as go
+import nltk
+from datetime import datetime
+import re
+from collections import defaultdict
+
+# 2. Download required NLTK data
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+
+class ProductSentimentAnalyzer:
+    def __init__(self):
+        """
+        Initialize sentiment analyzer with NLTK's VADER and TextBlob
+        """
+        self.sia = SentimentIntensityAnalyzer()
+        self.quality_keywords = [
+            'quality', 'reliable', 'durability', 'durable', 'sturdy',
+            'build', 'construction', 'material', 'craftsmanship', 'made',
+            'manufacturing', 'defect', 'broken', 'issue', 'problem'
+        ]
+
+    def clean_text(self, text):
+        """
+        Clean and preprocess text data
+
+        Parameters:
+            text (str): Raw text
+        Returns:
+            str: Cleaned text
+        """
+        # Convert to string in case of non-string input
+        text = str(text)
+
+        # Remove URLs
+        text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
+        # Remove user mentions
+        text = re.sub(r'@\w+', '', text)
+        # Remove hashtags
+        text = re.sub(r'#\w+', '', text)
+        # Remove special characters and numbers
+        text = re.sub(r'[^\w\s]', '', text)
+        # Convert to lowercase
+        text = text.lower().strip()
+
+        return text
+
+    def is_quality_related(self, text):
+        """
+        Check if tweet is related to product quality
+
+        Parameters:
+            text (str): Cleaned text
+        Returns:
+            bool: True if quality-related, False otherwise
+        """
+        return any(keyword in text for keyword in self.quality_keywords)
+
+    def get_compound_sentiment(self, text):
+        """
+        Calculate compound sentiment score using VADER
+
+        Parameters:
+            text (str): Cleaned text
+        Returns:
+            float: Compound sentiment score
+        """
+        return self.sia.polarity_scores(text)['compound']
+
+    def analyze_sentiment(self, text):
+        """
+        Determine sentiment category based on compound score
+
+        Parameters:
+            text (str): Cleaned text
+        Returns:
+            str: Sentiment category
+        """
+        compound_score = self.get_compound_sentiment(text)
+        if compound_score >= 0.05:
+            return 'positive'
+        elif compound_score <= -0.05:
+            return 'negative'
+        else:
+            return 'neutral'
+
+def main():
+    """
+    Main execution function for sentiment analysis pipeline
+    """
+    # Initialize analyzer
+    analyzer = ProductSentimentAnalyzer()
+
+    # Load and preprocess data
+    df = pd.read_csv('/content/Social_Media_Sentiment_Dataset__.csv')
+
+    # Clean tweets and add new columns
+    df['cleaned_text'] = df['Tweet'].apply(analyzer.clean_text)
+    df['is_quality'] = df['cleaned_text'].apply(analyzer.is_quality_related)
+    df['sentiment_score'] = df['cleaned_text'].apply(analyzer.get_compound_sentiment)
+    df['sentiment_category'] = df['cleaned_text'].apply(analyzer.analyze_sentiment)
+
+    # Convert date string to datetime
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    # Filter quality-related tweets
+    quality_df = df[df['is_quality']].copy()
+
+    # Create daily sentiment aggregates
+    daily_sentiment = quality_df.groupby(quality_df['Date'].dt.date).agg({
+        'sentiment_score': 'mean',
+        'sentiment_category': lambda x: x.value_counts().index[0],
+        'Tweet': 'count'
+    }).reset_index()
+
+    # Create visualizations
+    def create_trend_plot():
+        fig = go.Figure()
+
+        # Add sentiment score line
+        fig.add_trace(go.Scatter(
+            x=daily_sentiment['Date'],
+            y=daily_sentiment['sentiment_score'],
+            name='Average Sentiment',
+            line=dict(color='blue', width=2)
+        ))
+
+        # Add tweet volume bars
+        fig.add_trace(go.Bar(
+            x=daily_sentiment['Date'],
+            y=daily_sentiment['Tweet'],
+            name='Tweet Volume',
+            yaxis='y2',
+            opacity=0.3
+        ))
+
+        # Update layout
+        fig.update_layout(
+            title='Product Quality Sentiment Trend',
+            xaxis_title='Date',
+            yaxis_title='Sentiment Score',
+            yaxis2=dict(
+                title='Tweet Volume',
+                overlaying='y',
+                side='right'
+            ),
+            hovermode='x unified'
+        )
+
+        return fig
+
+    def create_sentiment_distribution():
+        sentiment_dist = quality_df['sentiment_category'].value_counts()
+
+        fig = px.pie(
+            values=sentiment_dist.values,
+            names=sentiment_dist.index,
+            title='Distribution of Product Quality Sentiments'
+        )
+
+        return fig
+
+    # Generate and save visualizations
+    trend_fig = create_trend_plot()
+    dist_fig = create_sentiment_distribution()
+
+    # Save interactive HTML files
+    trend_fig.write_html('quality_sentiment_trend.html')
+    dist_fig.write_html('quality_sentiment_distribution.html')
+
+    # Print summary statistics
+    print("\nProduct Quality Sentiment Analysis Summary:")
+    print("-" * 50)
+    print(f"Total tweets analyzed: {len(df)}")
+    print(f"Quality-related tweets: {len(quality_df)} ({len(quality_df)/len(df)*100:.1f}%)")
+    print("\nSentiment Distribution:")
+    print(quality_df['sentiment_category'].value_counts(normalize=True).multiply(100).round(1))
+
+    # Save processed data
+    quality_df.to_csv('analyzed_quality_tweets.csv', index=False)
+    daily_sentiment.to_csv('daily_quality_sentiment.csv', index=False)
+
+if __name__ == "__main__":
+    main()
