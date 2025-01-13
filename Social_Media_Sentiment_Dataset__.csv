@@ -1,0 +1,101 @@
+Date,Tweet,Sentiment,Sentiment_Score
+2023-12-21,Product quality exceeded expectations. Brilliant!,Negative,-0.75
+2023-12-04,Great experience with customer service. Very helpful!,Positive,0.73
+2023-12-02,Product quality exceeded expectations. Brilliant!,Positive,0.78
+2023-12-15,Exceptional support team! Solved my issue instantly.,Positive,0.87
+2023-12-05,Highly recommend this to everyone. Great value!,Negative,-0.99
+2023-12-03,Great experience with customer service. Very helpful!,Positive,0.88
+2023-12-16,Worst experience ever. Completely dissatisfied.,Positive,0.95
+2023-12-16,Great experience with customer service. Very helpful!,Positive,0.74
+2023-12-05,Exceptional support team! Solved my issue instantly.,Negative,-1.0
+2023-12-20,Highly recommend this to everyone. Great value!,Negative,-0.75
+2023-12-12,Highly recommend this to everyone. Great value!,Negative,-0.82
+2023-12-20,Exceptional support team! Solved my issue instantly.,Negative,-0.95
+2023-12-15,Can't believe the delay in delivery. Very disappointed.,Positive,0.96
+2023-12-01,Enjoying the new update. Kudos to the team!,Negative,-0.73
+2023-12-14,This feature update is a game changer. Love it!,Positive,0.76
+2023-12-02,Worst experience ever. Completely dissatisfied.,Positive,0.85
+2023-12-19,Had to return my purchase. Not satisfied.,Negative,-0.97
+2023-12-05,Great experience with customer service. Very helpful!,Negative,-0.97
+2023-12-20,Great experience with customer service. Very helpful!,Positive,0.85
+2023-12-02,Great experience with customer service. Very helpful!,Negative,-0.86
+2023-12-09,Fast shipping and excellent packaging. Impressed!,Negative,-0.79
+2023-12-14,Worst experience ever. Completely dissatisfied.,Positive,0.74
+2023-12-21,The sale event was fantastic! Got great deals.,Negative,-0.72
+2023-12-09,Love the new product launch! Amazing features.,Negative,-0.88
+2023-12-02,This feature update is a game changer. Love it!,Positive,0.98
+2023-12-02,Worst experience ever. Completely dissatisfied.,Positive,0.88
+2023-12-05,Great experience with customer service. Very helpful!,Negative,-0.97
+2023-12-21,Product quality exceeded expectations. Brilliant!,Positive,0.88
+2023-12-04,Exceptional support team! Solved my issue instantly.,Positive,0.98
+2023-12-20,Fast shipping and excellent packaging. Impressed!,Negative,-0.76
+2023-12-16,The app keeps crashing. Really annoying.,Negative,-0.76
+2023-12-19,The sale event was fantastic! Got great deals.,Negative,-0.87
+2023-12-17,Exceptional support team! Solved my issue instantly.,Positive,0.79
+2023-12-02,The app keeps crashing. Really annoying.,Positive,0.92
+2023-12-21,Can't believe the delay in delivery. Very disappointed.,Negative,-0.98
+2023-12-09,Highly recommend this to everyone. Great value!,Positive,0.73
+2023-12-10,Had to return my purchase. Not satisfied.,Positive,0.8
+2023-12-09,Had to return my purchase. Not satisfied.,Positive,0.75
+2023-12-14,Exceptional support team! Solved my issue instantly.,Positive,0.98
+2023-12-18,Love the new product launch! Amazing features.,Positive,0.79
+2023-12-18,Had to return my purchase. Not satisfied.,Positive,0.71
+2023-12-12,Exceptional support team! Solved my issue instantly.,Positive,0.9
+2023-12-12,Had to return my purchase. Not satisfied.,Positive,0.84
+2023-12-10,Love the new product launch! Amazing features.,Positive,0.86
+2023-12-18,Fast shipping and excellent packaging. Impressed!,Positive,0.92
+2023-12-01,Product quality exceeded expectations. Brilliant!,Negative,-0.88
+2023-12-20,Love the new product launch! Amazing features.,Negative,-0.86
+2023-12-06,Fast shipping and excellent packaging. Impressed!,Positive,0.7
+2023-12-15,Exceptional support team! Solved my issue instantly.,Positive,0.98
+2023-12-08,Not happy with the recent changes. Feels unnecessary.,Positive,0.9
+2023-12-20,Worst experience ever. Completely dissatisfied.,Negative,-0.98
+2023-12-06,Product quality exceeded expectations. Brilliant!,Positive,0.97
+2023-12-11,The website was down for hours. Really frustrating.,Positive,0.99
+2023-12-10,Love the new product launch! Amazing features.,Negative,-0.81
+2023-12-12,The app keeps crashing. Really annoying.,Positive,0.71
+2023-12-08,The website was down for hours. Really frustrating.,Positive,0.89
+2023-12-21,Can't believe the delay in delivery. Very disappointed.,Negative,-0.95
+2023-12-06,Love the new product launch! Amazing features.,Positive,0.95
+2023-12-13,Can't believe the delay in delivery. Very disappointed.,Negative,-0.91
+2023-12-08,The website was down for hours. Really frustrating.,Negative,-0.76
+2023-12-08,Not happy with the recent changes. Feels unnecessary.,Positive,0.81
+2023-12-04,Worst experience ever. Completely dissatisfied.,Positive,0.75
+2023-12-05,Not happy with the recent changes. Feels unnecessary.,Negative,-0.96
+2023-12-21,Worst experience ever. Completely dissatisfied.,Negative,-0.86
+2023-12-10,The app keeps crashing. Really annoying.,Positive,0.73
+2023-12-18,Love the new product launch! Amazing features.,Negative,-0.77
+2023-12-02,Worst experience ever. Completely dissatisfied.,Positive,0.73
+2023-12-07,The sale event was fantastic! Got great deals.,Negative,-0.85
+2023-12-17,Fast shipping and excellent packaging. Impressed!,Negative,-0.87
+2023-12-07,Highly recommend this to everyone. Great value!,Positive,0.98
+2023-12-04,The website was down for hours. Really frustrating.,Positive,0.99
+2023-12-10,Love the new product launch! Amazing features.,Negative,-0.84
+2023-12-05,Not happy with the recent changes. Feels unnecessary.,Positive,0.95
+2023-12-04,Not happy with the recent changes. Feels unnecessary.,Negative,-0.88
+2023-12-14,Had to return my purchase. Not satisfied.,Negative,-0.78
+2023-12-12,This feature update is a game changer. Love it!,Negative,-0.7
+2023-12-05,Product quality exceeded expectations. Brilliant!,Positive,0.89
+2023-12-08,Had to return my purchase. Not satisfied.,Positive,0.79
+2023-12-19,Can't believe the delay in delivery. Very disappointed.,Negative,-0.91
+2023-12-09,The website was down for hours. Really frustrating.,Positive,0.71
+2023-12-02,Product quality exceeded expectations. Brilliant!,Negative,-0.79
+2023-12-18,Highly recommend this to everyone. Great value!,Positive,0.89
+2023-12-14,Great experience with customer service. Very helpful!,Positive,0.85
+2023-12-15,The sale event was fantastic! Got great deals.,Positive,0.85
+2023-12-08,Enjoying the new update. Kudos to the team!,Positive,0.89
+2023-12-22,Love the new product launch! Amazing features.,Negative,-0.97
+2023-12-15,Can't believe the delay in delivery. Very disappointed.,Positive,0.75
+2023-12-07,The app keeps crashing. Really annoying.,Positive,0.82
+2023-12-19,Had to return my purchase. Not satisfied.,Positive,0.86
+2023-12-05,Exceptional support team! Solved my issue instantly.,Positive,0.9
+2023-12-15,Love the new product launch! Amazing features.,Positive,0.91
+2023-12-01,The app keeps crashing. Really annoying.,Negative,-0.85
+2023-12-13,Love the new product launch! Amazing features.,Positive,0.88
+2023-12-16,Had to return my purchase. Not satisfied.,Positive,0.85
+2023-12-08,Not happy with the recent changes. Feels unnecessary.,Positive,0.93
+2023-12-14,Had to return my purchase. Not satisfied.,Negative,-0.84
+2023-12-08,Love the new product launch! Amazing features.,Negative,-0.8
+2023-12-13,Not happy with the recent changes. Feels unnecessary.,Negative,-0.73
+2023-12-22,Enjoying the new update. Kudos to the team!,Positive,1.0
+2023-12-19,Highly recommend this to everyone. Great value!,Negative,-0.93
